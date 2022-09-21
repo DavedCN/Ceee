@@ -42,11 +42,9 @@ img
 
 
 
-.container
+header
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     position: relative;
     bottom: 50px;
      
@@ -74,15 +72,14 @@ img
     opacity: 0.5;
 }
 
-.container-2
+section 
 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    
-    
-   
+    position: relative;
+    bottom: 60px;
+
 }
 
 
@@ -103,7 +100,7 @@ img
   
   .fa-facebook {
     background: #3B5998;
-    max-width: 400px;
+
   }
   
   
@@ -131,7 +128,7 @@ img
     max-width: 100%;
     font-size: 16px;
     padding-bottom: 15px;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.2px;
     font-family: 'Roboto Condensed', sans-serif;
   
    
