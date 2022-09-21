@@ -62,9 +62,8 @@ img
 {
     display: inline-block;
     position: relative;
-    top: 20px;
+    bottom: 50px;
     letter-spacing: 1px;
-   
     line-height: 1.3;
 }
 
