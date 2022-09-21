@@ -1,210 +1,157 @@
-
-
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-body
-{
-    background-color:  #161616;
-    text-align: center;
-    color: #ffffff
-    
-
+body {
+  background-color: #161616;
+  text-align: center;
+  color: #ffffff;
 }
 
-
-.one
-{
-    background-color: #0da011;
-    height: 17vh;
+.one {
+  background-color: #0da011;
+  height: 17vh;
 }
 
-
-  .container
-  {
-    position: relative;
-    bottom: 60px;
-  }
-  
-
-img
-{
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-     border-radius: 50%;
-     position: relative;
-    bottom: 90px;
- 
+.container {
+  position: relative;
+  bottom: 70px;
 }
 
-
-
-
-
-.loc
-{
-    position: relative;
-    bottom: 15px;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 90px;
 }
 
-.add
-{
-    display: inline-block;
-    letter-spacing: 1px;
-    margin: -20px auto 30px auto;
-    line-height: 1.5;
+.motto {
+  font-size: 15px;
+  padding-bottom: 5px;
+  letter-spacing: 0.2px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  bottom: 30px;
 }
 
-
-.aa:hover
-{
-    opacity: 0.5;
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.container-2
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    
-    
-   
+.aa {
+  letter-spacing: 0.3px;
+}
+.Ikeja {
+  margin-right: 115px;
+  line-height: 1.5;
+}
+.contact {
+  margin: 8px;
 }
 
+.loc {
+  position: relative;
+  bottom: 20px;
+}
 
+.CT {
+  position: relative;
+  bottom: 80px;
+}
+
+.address {
+  position: relative;
+  bottom: 30px;
+}
+
+.aa:hover {
+  opacity: 0.5;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+}
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 100%;
-    text-decoration: none;
-    margin: 10px auto;
-    border-radius: 5%;
-    
-    
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-  }
-  
-  
-
-  .fa-linkedin {
-    background: #007bb5;
-  }
-  
-  
-  
-  .fa-instagram {
-    background: #125688;
-  }
-
-
- .fa-whatsapp
- {
-    background: #39a54d;
- }
- 
-
- 
- .motto
- {
-    
-    font-size: 16px;
-    padding-bottom: 15px;
-    letter-spacing: 0.2px;
-    font-family: 'Roboto', sans-serif;
-  
-   
-    
- }
-
- a
- {
-    text-decoration: none;
-    color: #ffffff;
-    
- }
- 
-
- .contact
- {
-    margin: 10px;
- }
-
-.CALL
-{
-   
-    background: black;
-    border-radius: 9px;
-    font-family: Georgia;
-    font-size: 15px;
-    padding: 3.5px 7px 3.5px 7px;
-    text-decoration: none;
-    margin: auto 20px;
-    cursor: pointer;
-    width: 80px;
-  
+  padding: 20px;
+  font-size: 30px;
+  width: 100%;
+  text-decoration: none;
+  margin: 10px auto;
+  border-radius: 5%;
 }
 
-.CALL:hover
-{
-    opacity: 0.8;
-    background: #4c4c54;
-    text-decoration: none;
+.fa:hover {
+  opacity: 0.7;
 }
 
-
-
-.EMAIL
-{
-    background: black;
-    border-radius: 9px;
-    font-family: Georgia;
-    font-size: 15px;
-    padding: 3.5px 7px 3.5px 7px;
-    text-decoration: none;
-    cursor: pointer;
+.fa-facebook {
+  background: #3b5998;
 }
 
-.EMAIL:hover
-{
-    opacity: 0.8;
-    background: #4c4c54;
-    text-decoration: none;
+.fa-linkedin {
+  background: #007bb5;
 }
 
+.fa-instagram {
+  background: #125688;
+}
 
+.fa-whatsapp {
+  background: #39a54d;
+}
 
+.CALL {
+  background: black;
+  border-radius: 9px;
+  font-family: Georgia;
+  font-size: 15px;
+  padding: 3.5px 7px 3.5px 7px;
+  text-decoration: none;
+  margin: auto 20px;
+  cursor: pointer;
+  width: 80px;
+}
 
+.CALL:hover {
+  opacity: 0.8;
+  background: #4c4c54;
+  text-decoration: none;
+}
 
+.EMAIL {
+  background: black;
+  border-radius: 9px;
+  font-family: Georgia;
+  font-size: 15px;
+  padding: 3.5px 7px 3.5px 7px;
+  text-decoration: none;
+  cursor: pointer;
+}
 
+.EMAIL:hover {
+  opacity: 0.8;
+  background: #4c4c54;
+  text-decoration: none;
+}
 
- footer
-{
-  font-size: 0.50rem;
+footer {
+  font-size: 0.5rem;
   padding: 5px 0;
 }
 
-
-@media (min-width:640px)
-
-{
-    img
-    {
-        max-width: 17%;
-    }
+@media (min-width: 640px) {
+  img {
+    max-width: 17%;
+  }
 }
