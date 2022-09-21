@@ -47,10 +47,11 @@ img
 
 
 
+
 .loc
 {
-    margin-bottom: 0;
-    margin-top: -35px;
+    position: relative;
+    bottom: 15px;
 }
 
 .add
@@ -134,7 +135,7 @@ img
  a
  {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     
  }
  
