@@ -56,7 +56,9 @@ img
 .loc
 {
    
-    position: 
+    position: relative;
+    bottom: 20px;
+
 }
 
 .add
