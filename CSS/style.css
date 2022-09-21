@@ -41,7 +41,18 @@ img
 
 
 
+.CT
+{
+    position: relative;
+    top: 20px;
 
+}
+
+.about
+{
+    position: relative;
+    bottom: 100px;
+}
 .loc
 {
    
@@ -55,6 +66,8 @@ img
     display: inline-block;
     letter-spacing: 1px;
     line-height: 1.5;
+    
+   
 }
 
 
@@ -117,10 +130,12 @@ section
  .motto
  {
     max-width: 100%;
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 15px;
     letter-spacing: 0.2px;
     font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    bottom: 80px;
   
    
     
@@ -137,7 +152,10 @@ section
 
  .contact
  {
-    margin: 10px;
+    position: relative;
+    bottom: 85px;
+  
+   
  }
 
 .CALL
