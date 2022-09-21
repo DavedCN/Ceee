@@ -61,8 +61,10 @@ img
 .add
 {
     display: inline-block;
+    position: relative;
+    top: 20px;
     letter-spacing: 1px;
-    margin: 20px auto ;
+   
     line-height: 1.3;
 }
 
