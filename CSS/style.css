@@ -40,10 +40,7 @@ img
 }
 
 
-header
-{
-    padding-bottom:
-}
+
 
 .container
 {
@@ -58,7 +55,7 @@ header
 {
    
     margin-bottom: -40px;
-    margin-top: 20px;
+    margin-top: -20px;
 }
 
 .add
